@@ -1,0 +1,17 @@
+.tag-each-fetched {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.article-each-fetched {
+  background-color: rgb(51, 51, 51);
+  padding: 2%;
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+
+  h1 {
+    font-size: 44.8px;
+    font-weight: 600;
+  }
+}

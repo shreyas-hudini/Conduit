@@ -34,3 +34,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+// instead of hanlding fetch and setting state using useState we will be using useSelectors
+// for settting state we will be using dispatch in useEffect
+// we need to wrap our root component in provider
+// we need create a store
+// we need to create a slice and also asyncCreatethunk
+

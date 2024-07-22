@@ -1,0 +1,71 @@
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  padding-top: 5%;
+
+  input {
+    width: 70%;
+    border: 1px solid #55595c;
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    color: #55595c;
+    background-color: #fff;
+    font-family: "Titillium Web", sans-serif;
+  }
+  textarea {
+    width: 70%;
+    border: 1px solid #55595c;
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    color: #55595c;
+    background-color: #fff;
+    font-family: "Titillium Web", sans-serif;
+  }
+
+  .submit-article {
+    display: inline-block;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #449d44;
+    border-color: #419641;
+  }
+}
+
+.log-out {
+  color: #b85c5c;
+  background-color: #fff;
+  border-color: #b85c5c;
+  display: inline-block;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+}
+.log-out :hover {
+  color: #fff;
+  background-color: #b85c5c;
+  border-color: #b85c5c;
+}
